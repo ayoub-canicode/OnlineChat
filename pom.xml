@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tupinamba</groupId>
-    <artifactId>spring-boot-websocket</artifactId>
+    <artifactId>OnlineChat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-websocket</name>
+    <name>OnlineChat</name>
     <description>Desafio realizado para a empresa Tupinambá como parte do processo seletivo</description>
     <properties>
         <java.version>11</java.version>
