@@ -20,7 +20,8 @@ body {
     /*  background-color: #f4f4f4; */
     height: 100%;
 
-
+    /*background-image: linear-gradient(#A100FFFF, #119CFDFF);*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -34,7 +35,7 @@ body:before {
     position: absolute;
     top: 0;
     left: 0;
-    background: maxresdefault.jpg;
+    background: im.jpg;
     content: "";
     z-index: 0;
 }
@@ -54,6 +55,7 @@ body:before {
     min-height: 38px;
     font-size: 15px;
     border: 1px solid #c8c8c8;
+    
 }
 
 .form-group {
@@ -100,7 +102,7 @@ button.default {
 }
 
 button.primary {
-    background-color: #25be38;
+    background-color: #0D47A1;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
     color: #fff;
 }
@@ -149,7 +151,7 @@ button.accent {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
     margin-top: 30px;
     height: calc(100% - 60px);
@@ -159,7 +161,6 @@ button.accent {
 
 #chat-page ul {
     list-style-type: none;
-    background-color: #FFF;
     margin: 0;
     overflow: auto;
     overflow-y: scroll;
